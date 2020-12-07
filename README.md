@@ -27,11 +27,12 @@ webpage - filename - title - sample content (including pictures)
 startpage - index - The ProgrammierBar at Cottbus - c0  
 events - events - Past and Future Events at the ProgrammierBar - c1  
 gallerie - gallerie - Photos taken at the ProgrammierBar - c2  
-impressum - impressum - Impressum - c3
+impressum - impressum - Impressum - c3  
 current month - calender\_view - An overwiev of the current month - c4  
 about us - about\_us - About the ProgrammierBar - c5  
 list of beverages - menu - Drinks we offer - c6  
 merch - merch - Show your love - c7  
+rental - rental - rent us for events - c8  
 
 -------
 ## Sample content
