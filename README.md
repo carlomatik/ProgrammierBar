@@ -20,7 +20,7 @@ These past events are to be shown as photos, videos, or potential documents solv
 Potential hosts for hackathons, LAN-parties and other events can submit their interest via this website as well.
 
 ## website design diagram
-<mark>TODO: diagramm</mark>
+![Website diagram](Images/ProgrammierBar_diagram.png)  
 
 ## at least 10 webpages with meaningful file name, title and content
 webpage - filename - title - sample content (including pictures)  
