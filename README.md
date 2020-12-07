@@ -57,7 +57,8 @@ requested "cinamon shot" will be available!
 6th Dec: every guest with recently cleaned boots gets a shot on the house  
 
 c2:  
-<mark> sample photos go here </mark>  
+Recently taken photos:
+! [Sample1, EventXY] (Images/GalleryEventXY_Sample1.png)
 
 c3:  
 Impressum:  
