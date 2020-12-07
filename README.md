@@ -58,7 +58,7 @@ requested "cinamon shot" will be available!
 
 c2:  
 Recently taken photos:
-! [Sample1, EventXY] (Images/GalleryEventXY_Sample1.png)
+![Sample1, EventXY](Images/GalleryEventXY_Sample1.png)
 
 c3:  
 Impressum:  
