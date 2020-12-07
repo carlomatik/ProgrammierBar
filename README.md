@@ -32,7 +32,9 @@ current month - calender\_view - An overwiev of the current month - c4
 about us - about\_us - About the ProgrammierBar - c5  
 list of beverages - menu - Drinks we offer - c6  
 merch - merch - Show your love - c7  
-rental - rental - rent us for events - c8  
+rental - rental - Rent us for events - c8  
+login - login - Login with your account - c9  
+data protection - data protection - Data Prtoteciton - Die ProgrammierBar - c10
 
 -------
 ## Sample content
@@ -79,6 +81,19 @@ a round of beerpong
 
 c7:  
 <mark> default shopping view with e.g. a shirt showing of the programmierbar's logo </mark>  
+
+c8:  
+Rent us! Make your next celebration (birthday, christmas, oktoberfest, whatever!) something special.  
+The location is the ideal choice for surprising the family and friends or create a relaxed atmosphere for colleagues with a party.  
+Please send us your wishes and ideas with this formular and we will contact you shortly.  
+
+c9:  
+Good morning Sir. Please enter your account name and password, to continue.  
+
+c10:  
+1) Name and contact details of the person responsible for processing and the company data protection officer.  
+2) Collection and storage of personal data as well as the type and purpose of their use.  
+3) Transfer of data.
 
 
 -------
