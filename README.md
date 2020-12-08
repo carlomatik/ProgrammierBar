@@ -80,11 +80,29 @@ c5:
 Description of the location, the ambient of the bar and the basic offers, e.g. beverages, events...  
 
 c6:  
-The drunken programmer 3€  
-description of whats inside the drink
+**cocktails**  
+The drunken programmer 20€  
+contains gin, vodka, differents juices and ice  
 
-Battle of precise coding (Beerpong) 10€  
-a round of beerpong
+The deep sea diver 6€  
+contains several gins and lime juice  
+
+While true play beerpong (Beerpong) 12€   
+a round of beerpong, with 2x 1L beer.  
+
+**shots (2CL)**  
+berlin air 2,40€  
+
+jaegermeister 3,00€  
+
+uni-code 2,00€  
+(secret recipe) 
+
+vodka parlament 2,40€  
+
+lagavulin whiskey 5€
+
+
 
 c7:  
 <mark> default shopping view with e.g. a shirt showing of the programmierbar's logo </mark>  
