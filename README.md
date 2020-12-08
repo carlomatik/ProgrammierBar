@@ -57,6 +57,8 @@ requested "cinamon shot" will be available!
 6th Dec: every guest with recently cleaned boots gets a shot on the house  
 
 c2:  
+Welcome to our gallery! Here you can get an idea about our different events and its attendees.  
+Whether karaoke, beerpong-competition or hackathon, there is something for everyone, as you can see.
 Recently taken photos:  
 ![Sample1, EventXY](Images/GalleryEventXY_Sample1.png)  
 ![Sample2, EventXY](Images/GalleryEventXY_Sample2.png)  
@@ -71,6 +73,7 @@ Telephone: 0123456789
 
 c4:  
 <!-- <mark> a calender with markings for closed days, special days, days of events and so on </mark>  -->
+Below you can see the current month with its events. The different colours stands for events of a private (red) or public nature. (green)  
 ![SampleCalender, Calender](Images/cal.png)  
 
 c5:  
@@ -85,6 +88,9 @@ a round of beerpong
 
 c7:  
 <mark> default shopping view with e.g. a shirt showing of the programmierbar's logo </mark>  
+Welcome in our ProgrammierBar-shop! Do you want to make an impression in front of friends or relatives?  
+Then get an t-shirt, sweater or a original ProgrammierBar-bag to show your support for us.  
+**New in our shop:** get a ProgrammierBar-mask to fight corona and all the problems that arise with the pandemic for local restaurents and bars!
 
 c8:  
 Rent us! Make your next celebration (birthday, christmas, oktoberfest, whatever!) something special.  
