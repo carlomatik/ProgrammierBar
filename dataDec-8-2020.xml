@@ -4,27 +4,63 @@
 		<beverage_price>€20,00</beverage_price>
 		<beverage_name>Drunken Programmer</beverage_name>
 		<beverage_promille>0,45</beverage_promille>
-		<beverage_description>This drink contains several gin and vodka drinks</beverage_description>
+        <beverage_quantity>1,5L</beverage_quantity>
+		<beverage_description>This drink contains several gin and vodka sorts with several juices and drinking straws, for you and your friends</beverage_description>
 	</record>
 	<record>
-		<beverage_id>4711</beverage_id>
+		<beverage_id>1</beverage_id>
 		<beverage_price>€6</beverage_price>
 		<beverage_name>Deepsea Diver</beverage_name>
 		<beverage_promille>0,52</beverage_promille>
+        <beverage_quantity>0,4L</beverage_quantity>
 		<beverage_description>A drink containing several gins and limette juice</beverage_description>
 	</record>
 	<record>
-		<beverage_id>69</beverage_id>
+		<beverage_id>2</beverage_id>
 		<beverage_price>€2,40</beverage_price>
 		<beverage_name>Berlin Air</beverage_name>
 		<beverage_promille>0,18</beverage_promille>
+        <beverage_quantity>2cl</beverage_quantity>
 		<beverage_description>A shot Berliner Luft</beverage_description>
 	</record>
 	<record>
-		<beverage_id>13</beverage_id>
+		<beverage_id>3</beverage_id>
 		<beverage_price>€12,00</beverage_price>
 		<beverage_name>While true play Beerpong</beverage_name>
 		<beverage_promille>0,08</beverage_promille>
+        <beverage_quantity>2L</beverage_quantity>
 		<beverage_description>A round of Beerpong</beverage_description>
 	</record>
+    <record>
+        <beverage_id>4</beverage_id>
+		<beverage_price>€2,00</beverage_price>
+		<beverage_name>uni-code</beverage_name>
+		<beverage_promille>0,15</beverage_promille>
+        <beverage_quantity>2cl</beverage_quantity>
+		<beverage_description>secret recipe</beverage_description>
+    </record>
+    <record>
+        <beverage_id>5</beverage_id>
+		<beverage_price>€3,00</beverage_price>
+		<beverage_name>jaegermeister</beverage_name>
+		<beverage_promille>0,35</beverage_promille>
+        <beverage_quantity>2cl</beverage_quantity>
+		<beverage_description>A shot jaegermeister</beverage_description>
+    </record>
+    <record>
+        <beverage_id>6</beverage_id>
+		<beverage_price>€2,40</beverage_price>
+		<beverage_name>vodka parlament</beverage_name>
+		<beverage_promille>0,425</beverage_promille>
+        <beverage_quantity>2cl</beverage_quantity>
+		<beverage_description>A shot vodka parlament</beverage_description>
+    </record>
+    <record>
+        <beverage_id>7</beverage_id>
+		<beverage_price>€5,00</beverage_price>
+		<beverage_name>lagavulin</beverage_name>
+		<beverage_promille>0,43</beverage_promille>
+        <beverage_quantity>2cl</beverage_quantity>
+		<beverage_description>a shot lagavulin</beverage_description>
+    </record>
 </records>
