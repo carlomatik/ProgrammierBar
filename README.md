@@ -70,7 +70,8 @@ Cottbus 03046
 Telephone: 0123456789  
 
 c4:  
-<mark> a calender with markings for closed days, special days, days of events and so on </mark>  
+<!-- <mark> a calender with markings for closed days, special days, days of events and so on </mark>  -->
+![SampleCalender, Calender](Images/cal.png)  
 
 c5:  
 Description of the location, the ambient of the bar and the basic offers, e.g. beverages, events...  
@@ -118,10 +119,10 @@ Every content should be accessible from every device, so the elements need to be
 If the webpage demands a scrolling functionality, the scrolling needs to be visually without delay, so it needs to be smooth.
 
 ## XML/SVG/audio/video
-<mark>TODO: XML data file</mark>
+Sample XML at "/dataDec-8-2020.xml"  
 
 The branding/logo of the ProgrammierBar is black and white, minimilastic and consists of a glass of beer next to a laptop schematic.
-It is desired that this logo will be modelled as a SVG and is always visible on the top left of the website.
+It is desired that this logo will be modelled as a SVG and is always visible on the top left of the website.  
 
-Also the owner of the bar wishes to present his bar with a quick video on his about webpage.
+Also the owner of the bar wishes to present his bar with a quick video on his about webpage.  
 
