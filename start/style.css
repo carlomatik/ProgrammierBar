@@ -1,0 +1,112 @@
+body{    
+    margin: 0;
+    font-family: Arial; 
+    background: #222; 
+    font-weight: 300; 
+  
+}
+:root{
+    --background: rgba(85, 214, 170, .85)
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+
+}
+header{
+    background: var(--background);
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+header::after {
+content: "";
+display: table;
+clear: both;
+}
+.logo{
+    float: left;
+    padding: 10px 0;
+}
+.nav{
+    float: right;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+
+    
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+display: inline-block;
+margin-left: 70px;
+padding-top: 20px;
+position: relative;
+
+}
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+
+}
+nav a:hover{
+color: black;
+}
+nav a::before{
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: #444;
+    position: absolute;
+    top: 0;
+    position: absolute;
+    transition: all ease-in-out 500ms;
+
+}
+nav a:hover::before{
+    width: 100%;
+}
+.footer{
+    bottom: 0;
+    
+
+}
+.footer{
+    width: 100%;
+    position: fixed;        
+    background: var(--background);
+    padding: 20px 0;
+    padding-left: 20%;
+    z-index: 999;
+    font-size: 1.2rem;
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.footer:hover{
+    color:black;
+}
+.footer::before{
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: #444;
+    position: absolute;
+    top: 0;
+    position: absolute;
+    transition: all ease-in-out 500ms;
+
+}
+.footer:hover::after{
+    width: 50%;
+    
+}

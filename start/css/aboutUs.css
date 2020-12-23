@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.tut{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 105, 233, 0, 0.8), rgba(0, 105, 233, 0.8),
+     url(GalleryEventXY_Sample3.png));
+background-position: center;
+background-size: cover;
+}
+.nav_bar{
+display: flex;
+height: 12%;
+
+}
+.navbar-left{
+    flex-basis: 70%;
+
+background-color: black;    
+}
+.navbar-inner{
+    flex-basis: 70%;
+    background-color: black;
+    
+}
