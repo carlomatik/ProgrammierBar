@@ -126,3 +126,10 @@ nav a:hover::before{
     width: 50%;
     
 }
+.impressum{
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 0%;
+    padding-right: 35%;
+    text-align: center;
+}
