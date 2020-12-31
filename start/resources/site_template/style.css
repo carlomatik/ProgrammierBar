@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #edf0f1;
+}
+
+li, a {
+  font-family: "arial";
+  font-size: 14px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 800px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+header, .b_foot, nav, ul, li, a, .logo {
+  background-color: #070707;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav_menus {
+  list-style: none;
+}
+
+.nav_menus li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_menus li a {
+  transition: all 0.3s ease 0s;
+}
+
+a.active, .nav_menus li a:hover {
+  color: black;
+  background-color: rgba(255,255,255, 1);
+  border: none;
+  border-radius: 0px;
+  padding: 10px;
+}
+
+/* Setting a white background for the active page menu */
+a.active {
+  background: rgba(255,255,255, 1);
+}
+
+/* Page footer section */
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background: #070707;
+  width: 100%;
+}
+
+footer .b_foot, .foot-links {
+  font-family: "arial";
+  font-size: 12px;
+  color: #EDF0F1;
+  text-decoration: none;
+}
+
+.foot-menu {
+  list-style: none;
+}
+
+.foot-links .foot-menu li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.foot-menu li a:hover {
+  color: #f28e1c;
+  border: none;
+  transition: all 0.3s ease 0s;
+
+}
+
+/* This point onwards, creates the mobile view menubar */
+@media only screen and (max-width: 799px) {
+  nav {
+    display: none;
+  }
+
+  .nav-toggle:checked ~ nav {
+    display: block;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-toggle-label {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    margin-left: 1em;
+    height: 20px;
+
+  }
+}
