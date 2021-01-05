@@ -150,3 +150,28 @@ It is desired that this logo will be modelled as a SVG and is always visible on 
 
 Also the owner of the bar wishes to present his bar with a quick video on his about webpage.  
 
+## Developer Division of Tasks (REQUIREMENT)
+
+## Kingsley
+Base CSS and HTML Structure
+Template Creation
+Design of Home/Index.html
+SVG Graphics and Page Photos
+Photos for Shop and creation of merch.html
+Galerie.html
+Other CSS styling
+JS Scripting (if necessary)
+
+## Brishna
+Creation of Calender / Events Pages
+Page Content Creation (+5pages): 
+AboutUs.html, 
+Beverages.html, 
+Rental.html, 
+Login.html,
+impressum, and 
+DataProtection.html
+Photos for Gallery
+Other CSS styling
+JS Scripting (if necessary)
+
