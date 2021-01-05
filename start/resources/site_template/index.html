@@ -3,154 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>:::Welcome to ProgrammierBar:::</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
-  
+  <link rel="stylesheet" href="style.css">
+  <title>ProgrammierBar</title>
 </head>
 <body>
-  <header>
-    <img class="logo" src="images/logo.svg" alt="logo">
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label">
-      <span>|||</span>
-    </label>
-    <nav>
-      <ul class="nav_menus">
-        <!-- Change the class of the active page here on each page-->
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Merch</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-<!--Calender here-->
-<div class="container">
-  <div class="calender">
-    <div class="month">
-      <em class="fas fa-angle-left prev"></em>
-      <h1>May</h1>
-      <p>Fri May 29, 2020</p>
+  <!-- Header Section -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <h1><span>P</span>rogrammier<span>B</span>ar</h1>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a id="active" href="#" backshow="Home">Home</a></li>
+            <li><a href="AboutUs.html" backshow="About">About Us</a></li>
+            <li><a href="#" backshow="Merch">Merch</a></li>
+            <li><a href="#" backshow="Events">Events</a></li>
+            <li><a href="#" backshow="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <em class="fas fa-angle-right next"></em>
-  </div>
-  <div class="weekdays">
-    <div>Sun</div>    
-    <div>Mon</div>
-    <div>Tue</div>
-    <div>Wed</div>
-    <div>Thur</div>
-    <div>Fri</div>
-    <div>Sat</div>
-  </div>
-  <div class="days">
-<div class="pre-date">26</div>
-<div class="pre-date">27</div>
-<div class="pre-date">28</div>
-<div class="pre-date">29</div>
-<div class="pre-date">30</div>
-<div>1</div>
-<div>2</div>
-<div>3</div>
-<div>4</div>
-<div>5</div>
-<div>6</div>
-<div>7</div>
-<div>8</div>
-<div>9</div>
-<div>10</div>
-<div>11</div>
-<div>12</div>
-<div>13</div>
-<div>14</div>
-<div>15</div>
-<div>16</div>
-<div>17</div>
-<div>18</div>
-<div>19</div>
-<div>20</div>
-<div>21</div>
-<div>22</div>
-<div>23</div>
-<div>24</div>
-<div>25</div>
-<div>26</div>
-<div>27</div>
-<div>28</div>
-<div>29</div>
-<div>30</div>
-<div>31</div>
-<div class="next-date">1</div>
-<div class="next-date">2</div>
-<div class="next-date">3</div>
-<div class="next-date">4</div>
-<div class="next-date">5</div>
-<div class="next-date">6</div>
-</div> 
-</div>
-</div>
-<!--
-  <div id="fullcalender">
-  <ul>
-    <li>SUN</li>
-    <li>MON</li>
-    <li>TUE</li>
-    <li>WED</li>
-    <li>THUR</li>
-    <li>FRI</li>
-    <li>SAT</li>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-    <li>6</li>
-    <li>7</li>
-    <li>8</li>
-    <li>9</li>
-    <li>10</li>
-    <li>11</li>
-    <li>12</li>
-    <li>13</li>
-    <li>14</li>
-    <li>15</li>
-    <li>16</li>
-    <li>17</li>
-    <li>18</li>
-    <li>19</li>
-    <li>20</li>
-    <li>21</li>
-    <li>22</li>
-    <li>23</li>
-    <li>24</li>
-    <li>25</li>
-    <li>26</li>
-    <li>27</li>
-    <li>28</li>
-    <li>29</li>
-    <li>30</li>
-    <li>31</li>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-  </ul>
-</div>
--->
+  </section>
+  <!-- End of Header Section -->
 
-  <footer>
-    <div class="b_foot">
-      Copyright &copy; &nbsp;ProgrammierBar 2020. All rights reserved.
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>We are the <span></span></h1>
+        <h1>ProgrammierBar <span></span></h1>
+        <h1>in Cottbus <span></span></h1>
+        <a href="#" type="button" class="cta">Events</a>
+      </div>
+    </div>
+  </section>
+  <!-- End of Hero Section -->
+
+  <!-- Up-Coming Events Section -->
+  <section id="future-events">
+    <div class="upcoming container">
+      <div class="upcoming-title">
+        <h1 class="section-title">Upcoming Events</h1>
+        <p>The ProgrammierBar is a local bar which focuses mostly on students and offers a wide variety of events focused on students that are interested in computer science.</p>
+      </div>
+      <div class="upcoming-content">
+        <div class="upcoming-event">
+          <div class="icon">
+            <img src="images/icons/icons8-hacker-64.png" alt="">
+          </div>
+          <h2>BTU Cottbus Hosted Hackathon</h2>
+          <p>18th December: The BTU Cottbus will host a hackathon focused on hacking routers</p>
+        </div>
+
+        <div class="upcoming-event">
+          <div class="icon">
+            <img src="images/icons/icons8-santa-96.png" alt="">
+          </div>
+          <h2>Christmas Special</h2>
+          <p>23rd December: As a special offer, all drinks will be priced at a discount and special drinks including the requested "cinamon shot" will be available.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Up-Coming Events Section -->
+
+  <!-- Footer Section -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>P</span>rogrammier<span>B</span>ar</h1>
+      </div>
+      <h2>Participate, Organize, or just have fun!</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="images/icons/icons8-facebook-64.png"></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="images/icons/icons8-instagram-64.png"></a>
+        </div>
+      </div>
+      <p>Copyright &copy; 2020 ProgrammierBar. All rights reserved.</p>
     </div>
     <div class="foot-links">
-      <ul class="foot-menu">
+      <ul>
         <li><a href="#">Impressum</a></li>
         <li><a href="#">Data Protection</a></li>
       </ul>
     </div>
-  </footer>
+  </section>
+  <!-- End of Footer Section -->
+  <script src="ham.js"></script>
 </body>
 </html>
