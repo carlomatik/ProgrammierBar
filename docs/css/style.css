@@ -1,0 +1,573 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+p {
+  color: black;
+  font-size: 1.4rem;
+  margin-top: 5px;
+  line-height: 2rem;
+  font-weight: 300;
+}
+
+.section-title {
+  font-size: 4rem;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2rem;
+  text-align: center;
+}
+
+h1 span {
+    color: orange;
+  }
+
+/* Header Section */
+#header {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: auto;
+}
+
+#header .header {
+  min-height: 8vh;
+  background-color: black;
+}
+
+#header .nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  padding: 0 10px;
+}
+
+#header .nav-list ul {
+  list-style: none;
+  position: absolute;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s ease left;
+}
+
+#header .nav-list ul.active {
+  left: 0;
+}
+
+#header .nav-list ul a {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+  display: block;
+}
+
+#header .nav-list ul a::after {
+  content: attr(backshow);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  color: #080808;
+  font-size: 10rem;
+  letter-spacing: 50px;
+  z-index: -1;
+  transition: 0.3s ease letter-spacing;
+}
+
+#header .nav-list ul li:hover a::after {
+  transform: translate(-50%, -50%) scale(1);
+  letter-spacing: initial;
+}
+
+#header .nav-list ul li:hover a {
+  background-color: white;
+  color: black;
+  transition: 0.3s ease-in;
+}
+
+#header .hamburger {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  border: 3px solid white;
+  border-radius: 30%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  cursor: pointer;
+  transform: scale(0.8);
+  margin-right: 10px;
+}
+
+#header .hamburger .bar {
+  height: 2px;
+  width: 30px;
+  position: relative;
+  background-color: white;
+}
+
+#header .hamburger .bar::after,
+#header .hamburger .bar::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background-color: white;
+  transition: 0.3s ease;
+  transition-property: top, bottom;
+}
+
+#header .hamburger .bar::after{
+  bottom: 8px;
+}
+
+#header .hamburger .bar::before{
+  top: 8px;
+}
+
+#header .hamburger.active .bar::before,
+#header .hamburger.active .bar::after {
+  top: 0;
+  bottom: 0%;
+}
+
+/* End of Header Section */
+
+/* Hero Section */
+
+#hero {
+  background-image: url(images/image10.jpg);
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  z-index: 1;
+}
+
+/* Black Over-layer to create contrast */
+#hero::after {
+  content: "";
+  position: absolute;
+  left 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color:black;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+#hero .hero {
+  max-width: 1200px;
+  margin: 0;
+  padding: 0 50px;
+  justify-content: flex-start;
+}
+
+#hero h1 {
+  display: block;
+  width: fit-content;
+  font-size: 4rem;
+  position: relative;
+  color: transparent;
+  animation: text-show 0.5s ease forwards;
+  animation-delay: 0.3s;
+}
+
+#hero h1:nth-child(1) {
+  animation-delay: 1s;
+}
+
+#hero h1:nth-child(2) {
+  animation: text-show-name 0.5s ease forwards;
+  animation-delay: 2s;
+}
+
+#hero h1:nth-child(3) {
+  animation-delay: 3s;
+}
+
+#hero h1 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: orange;
+  animation: text-show-box 1s ease;
+  animation-delay: 0.5s;
+}
+
+#hero h1:nth-child(1) span {
+  animation-delay: 0.5s;
+}
+
+#hero h1:nth-child(2) span {
+  animation-delay: 1.5s;
+}
+
+#hero h1:nth-child(3) span {
+  animation-delay: 2.5s;
+}
+
+
+#hero .cta {
+  display: inline-block;
+  padding: 10px 30px;
+  color: orange;
+  background-color: black;
+  border: 2px solid orange;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-top: 30px;
+  transition: .3s ease;
+  transition-property: background-color, color;
+}
+
+#hero .cta:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+/* End of Hero Section */
+
+/* Events Secion */
+
+#future-events .upcoming {
+  flex-direction: column;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0;
+  padding: 100px;
+}
+
+#future-events .upcoming-title {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#future-events .upcoming-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+#future-events .upcoming-event {
+  flex-basis: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+  background-image: url(images/image9.jpg);
+  background-size: cover;
+  margin: 10px 5%;
+  position: relative;
+  z-index: 1;
+}
+
+/* Overlay for contrast */
+#future-events .upcoming-event::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .8;
+  z-index: -1;
+}
+
+#future-events .upcoming-event .icon {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+#future-events .upcoming-event h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: orange;
+}
+
+#future-events .upcoming-event p {
+  text-align: left;
+  color: white;
+}
+
+/* End of Events Secion */
+
+/* Footer */
+  #footer {
+    background-color: black;
+  }
+
+  #footer .footer {
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+
+  .brand h1 {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    padding: 0 60px;
+  }
+
+  /* .brand h1 span {
+    color: orange;
+  } */
+
+  .drinks h2 {
+    padding: 30px;
+    text-transform: uppercase;
+  }
+
+  .drinks .drink-type, .price {
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+  }
+
+  .drinks .price {
+    font-weight: 600;
+    padding-bottom: 30px;
+    color: white;
+  }
+
+  .drinks .price span {
+    background-color: black;
+    padding: 10px;
+  }
+
+  #footer h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #footer .social-icon {
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  #footer .social-item {
+    height: 50px;
+    width: 50px;
+    margin 0, 5px;
+  }
+
+  #footer .social-item img {
+    filter: grayscale(1);
+    transition: 0.3s ease filter;
+  }
+
+  #footer .social-item:hover img {
+    filter: grayscale(0);
+  }
+
+  #footer p {
+    color: grey;
+    font-size: 1.3rem;
+  }
+
+  #footer .foot-links {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #footer .foot-links li {
+    display: inline-block;
+    padding: 30px;
+  }
+
+  #footer .foot-links a {
+    color:grey;
+    font-size: 1.3rem;
+    text-decoration: none;
+  }
+
+  #footer .foot-links a:hover {
+    color: orange;
+  }
+
+
+/* End of Footer Section */
+
+/* keyframes */
+@keyframes text-show-box {
+  50% {
+    width: 100%;
+    left: 0;
+  }
+
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+@keyframes text-show {
+  100% {
+    color: white
+  }
+}
+
+@keyframes text-show-name {
+  100% {
+    color: orange;
+  }
+}
+
+/* Media Query for Tablet */
+  @media only screen and (min-width: 768px) {
+    .cta {
+      font-size: 2.5rem;
+      padding: 20px 60px;
+    }
+    h1 .upcoming-title {
+      font-size: 6rem;
+    }
+
+    /* Hero */
+    #hero h1 {
+      font-size: 7rem;
+    }
+    
+    /* Up-Coming Events Section */
+    #future-events .upcoming-content .upcoming-event {
+      flex-basis: 45%;
+      margin: 2.5%;
+    }
+    /* End of Up-Coming Events Section */
+  }
+
+  /* Merch section */
+  #merchs .all-merchs .merch-item {
+    height: 400px;
+    margin: 0;
+    width: 80vw
+    padding 20px;
+    border-radius: 0;
+    flex-direction: row;
+  }
+
+  #merchs .all-merchs .merch-info {
+    height: 95%;
+  }
+
+  #merchs .all-merchs .merch-img {
+    height: 95%;
+  }
+  /* End of Merch section */
+
+/* End of Media Query for Tablet */   
+
+/* Media Query for Desktop */
+@media only screen and (min-width: 1200px) {
+  
+  /* header */
+  #future-events .upcoming-content .upcoming-event {
+    flex-basis: 22%;
+    margin: 1.5%;
+  }
+
+  #header .hamburger {
+    display: none;
+  }
+
+  #header .nav-list ul {
+    position: initial;
+    display: block;
+    height: auto;
+    width: fit-content;
+    background-color: transparent;
+  }
+
+  #header .nav-list ul a::after {
+    display: none;
+  }
+
+  #header .nav-list ul li a {
+    font-size: 1.4rem;
+    transition: 0.5s ease;
+  }
+
+  #header .nav-list ul li {
+    display: inline-block;
+  }
+
+  #header .nav-list ul li a#active {
+    background-color: white;
+    color:black;
+    font-weight: 600;
+  }
+
+  #header .nav-list ul li a:hover {
+    color: orange;
+    background-color: transparent;
+
+}
+
+
+/* End of Media Query for Desktop */
