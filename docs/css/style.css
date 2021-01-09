@@ -14,15 +14,13 @@ a {
 }
 
 .container {
-  min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.logo {
-  
+.logo { 
   background-image: url("../images/icons/logo_white.svg");
   background-repeat: no-repeat;
   position: absolute;
@@ -198,6 +196,10 @@ h1 span {
 
 /* Hero Section */
 
+.hero, .login-form {
+    min-height: 100vh;
+  }
+
 #hero {
   background-image: url("../images/image10.jpg");
   background-size: cover;
@@ -210,7 +212,7 @@ h1 span {
 #hero::after {
   content: "";
   position: absolute;
-  left 0;
+  left: 0;
   top: 0;
   height: 100%;
   width: 100%;
@@ -301,11 +303,11 @@ h1 span {
   text-align: center;
   max-width: 1500px;
   margin: 0;
-  padding: 100px;
+  padding: 100px 0;
 }
 
 #future-events .upcoming-title {
-  max-width: 500px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -363,6 +365,61 @@ h1 span {
 }
 
 /* End of Events Secion */
+
+/* Form Section */
+
+label, input {
+  display: block;
+  width: 400px;
+  margin-bottom: 5px;
+  top: 0;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  padding: 10px;
+}
+
+label {
+  font-size: 1.4rem;
+}
+
+textarea {
+  width: 400px;
+  resize: vertical;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;  
+  font-size: 1.4rem;
+  padding: 10px;
+  color: #101010;
+}
+
+#submit {
+  margin-bottom: 60px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  padding-top: 12px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+}
+
+#login-forms .login-form .pass-manager li {
+  list-style: none;
+  display: inline-block;
+}
+
+#login-forms .login-form {
+  position: relative;
+}
+
+#login-forms .login-form .pass-manager {
+  position: absolute;
+  bottom: 200px;
+  
+}
 
 /* Footer */
   #footer {
@@ -427,7 +484,7 @@ h1 span {
   #footer .social-item {
     height: 50px;
     width: 50px;
-    margin 0, 5px;
+    margin: 0, 5px;
   }
 
   #footer .social-item img {
@@ -522,8 +579,8 @@ h1 span {
   #merchs .all-merchs .merch-item {
     height: 400px;
     margin: 0;
-    width: 80vw
-    padding 20px;
+    width: 80vw;
+    padding: 20px;
     border-radius: 0;
     flex-direction: row;
   }
@@ -582,8 +639,6 @@ h1 span {
   #header .nav-list ul li a:hover {
     color: orange;
     background-color: transparent;
-
+  }
+  /* End of Media Query for Desktop */
 }
-
-
-/* End of Media Query for Desktop */
