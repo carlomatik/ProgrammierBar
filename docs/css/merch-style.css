@@ -1,0 +1,83 @@
+/* Merch */
+#merchs .merchs {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+#merchs .merchs-header h1 {
+  margin-bottom: 50px;
+}
+
+#merchs .all-merchs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#merchs .merch-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#merchs .merch-info {
+  padding: 30px;
+  flex-basis: 50%;
+  background-color: black;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+#merchs .merch-info h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#merchs .merch-info p {
+  color: white
+}
+
+#merchs .merch-info h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 10px;
+  color: orange;
+}
+
+#merchs .merch-img {
+  flex-basis: 50%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+#merchs .merch-img::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
+}
+
+#merchs .merch-img img {
+  transition: 0.3s ease transform;
+}
+
+#merchs .merch-item:hover .merch-img img {
+  transform: scale(1.1);
+}
+/* End of Merch */
