@@ -701,7 +701,7 @@ margin-bottom: 30px;
 cursor: pointer;
 position: relative;
 }
-.gallery-box .active{
+.gallery-box.active{
   color: orange;
 }
 .gallery-box ul li::after{
