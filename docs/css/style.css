@@ -656,6 +656,7 @@ textarea {
 }
 .text-box h4{
   text-shadow: rgba(232, 162, 4, 1);
+  font-size: 1.1rem;
 }
 .gallery-box{
 max-width: 90%;
