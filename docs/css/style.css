@@ -670,6 +670,11 @@ float: right;
   box-sizing: border-box;
 
 }
+@media only screen and (max-width: 769px) {
+  .gallery-box{
+      max-width: 50%;
+  }
+}
 .gallery-box ul{
   position: absolute;
   right: -100px;
