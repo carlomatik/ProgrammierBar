@@ -10,8 +10,11 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
+a :focus{
   text-decoration: none;
+  color: orange;
+  opacity: 1;
+
 }
 
 .container {
@@ -88,7 +91,7 @@ h1 span {
   padding: 0 10px;
 }
 
-#header .nav-list ul {
+#header .nav-list ul{
   list-style: none;
   position: absolute;
   background-color: black;
@@ -369,6 +372,9 @@ h1 span {
 
 /* Form Section */
 
+.contact-form :focus{
+  color: orange;
+}
 label, input {
   display: block;
   width: 400px;
@@ -407,6 +413,12 @@ textarea {
   border: none;
 }
 
+input[type="submit"] :focus-visible{
+  background: orange;
+color: orange;
+
+}
+
 #login-forms .login-form .pass-manager li {
   list-style: none;
   display: inline-block;
@@ -415,6 +427,9 @@ textarea {
 
 #login-forms .login-form {
   position: relative;
+}
+.login-form :focus{
+color: orange;
 }
 
 #login-forms .login-form .pass-manager {
