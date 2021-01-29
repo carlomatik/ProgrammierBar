@@ -5,7 +5,7 @@
 }
 
 html {
-  -webkit-text-size-adjust: 100%;
+ /* -webkit-text-size-adjust: 100%;*/
   font-size: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -423,7 +423,11 @@ color: orange;
   list-style: none;
   display: inline-block;
 }
-
+#login-forms .breadcrumb{
+  padding: 10px;
+  margin-right: 20px;
+  
+}
 
 #login-forms .login-form {
   position: relative;
@@ -642,83 +646,66 @@ color: orange;
 
 }  
 
-/* for gallery */
 
-.row{
-  width: 90%;
-  min-height: 85vh;
-  margin: auto;
+
+
+
+
+.breadcrumb {
   display: flex;
-  flex-wrap: wrap;
-}
-.col{
-  margin:  20px;
-  flex-basis: 50%;
-  min-width: 500px;
-  height: 100%;
-  position: relative;
-}
-.text-box{
-  max-width: 400px;
-  margin-top: 100px;
-
-}
-.text-box h1{
-  color: orange;
-  font-size: 50px;
-  font-weight: 100;
-  letter-spacing: 2px;
-  line-height: 50px;
-}
-.text-box h4{
-  text-shadow: rgba(232, 162, 4, 1);
-  font-size: 1.1rem;
-}
-.gallery-box{
-max-width: 90%;
-height: 90%;
-
-margin: auto;
-float: right;
-}
-.gallery-box img{
   width: 100%;
-  border: 10px solid rgba(232, 162, 4, 1);
-  box-sizing: border-box;
+  margin-bottom: 1%;
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 1em;
+  color:orange;
+}
 
+.breadcrumb a {
+  margin-top: 1%;
+  font-size: medium;
+  text-decoration: none;
+  color: black;
 }
-@media only screen and (max-width: 769px) {
-  .gallery-box{
-      max-width: 50%;
+
+.breadcrumb ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+.breadcrumb ul li {
+  display: inline-block;
+  font-size: medium;
+  padding-left: 0.2%;
+}
+/* for gallery */
+.gallerys{
+  padding: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+.img{
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  height: 220px;
+  overflow: hidden;
+  margin: 10px;
+  cursor: pointer;
+}
+.img img{
+  width: 100%;
+  height: 220px;
+  transition: 0.4s;
+}
+.img img:hover{
+  transform: scale(1.2);
+}
+
+
+
+@media (max-width:400px){
+  .img{
+    margin: 10px 0;
   }
-}
-.gallery-box ul{
-  position: absolute;
-  right: -100px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.gallery-box ul li{
-list-style: none;
-font-size: 16px;
-font-weight: bold;
-padding: 0 30px;
-margin-bottom: 30px;
-cursor: pointer;
-position: relative;
-}
-.gallery-box .active{
-  color: orange;
-}
-.gallery-box ul li::after{
-  content: "";
-  width: 30px;
-  height: 2px;
-  background: transparent;
-  position: absolute;
-  top: 8px;
-  left: -5px;
-}
-.gallery-box .active::after{
-  background: orange;
 }

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <title>ProgrammierBar</title>
 </head>
+
 <body>
   <!-- Header Section -->
   <section id="header">
@@ -16,53 +18,50 @@
           <h1><span>P</span>rogrammier<span>B</span>ar</h1>
         </div>
         <div class="nav-list">
-          <div class="hamburger"><div class="bar"></div></div>
-          <ul class="breadcrumbs">
-            <li class="breadcrumbs__item">
-              <a href="index.html"   class="breadcrumbs__link">Home</a>
-            </li>
-            <li class="breadcrumbs__item">
-              <a href="AboutUs.html" class="breadcrumbs__link">About Us</a>
-            </li>
-            <li class="breadcrumbs__item">
-              <a href="merch.html" class="breadcrumbs__link">Merch</a>
-            </li>
-            <li class="breadcrumbs__item">
-              <a href="gallery.html"  class="breadcrumbs__link">Gallery</a>
-            </li>
-            <li class="breadcrumbs__item">
-              <a href="Beverages.html"   class="breadcrumbs__link">Beverages</a>
-            </li>
-            
-            <li class="breadcrumbs__item">
-              <a href="Rental.html" class="breadcrumbs__link">Rental</a>
-            </li>
-            <li class="breadcrumbs__item">
-              <a href="login.html" id ="active" class="breadcrumbs__link">Log in</a>
-            </li>
-            </ul>
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="merch.html">Merch</a></li>
+            <li><a href="gallery2.html">Gallery</a></li>
+            <li><a href="Beverages.html">Beverages</a></li>
+            <li><a href="Rental.html">Rental</a></li>
+            <li><a href="login.html" id="active">Log in</a></li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
   <!-- End of Header Section -->
-  
+
   <section id="login-forms">
+
     <div class="login-form container">
+
       <div class="usrdetails">
-      <form action="https://www.google.com/search" method="post">
-        <label for="uname">Username</label>
-        <input type="text" id="uname" name="uname" placeholder="Enter your Username">
+        <section class="breadcrumb">
+          <ul>
+            <li>&#8674;</li>
+            <li><strong><a href="index.html">Home</a></strong></li>
+            <li>&#8674;</li>
+            <li><strong>Log in</strong></li>
+          </ul>
+        </section>
+        <form action="https://www.google.com/search" method="post">
+          <label for="uname">Username</label>
+          <input type="text" id="uname" name="uname" placeholder="Enter your Username">
 
-        <label for="l-name">Password<span>*</span></label>
-        <input type="password" id="password" name="password" placeholder="Enter your last name" required>
+          <label for="l-name">Password<span>*</span></label>
+          <input type="password" id="password" name="password" placeholder="Enter your last name" required>
 
-        <input type="submit" name="submit" id="submit" value="submit" class="button">
-      </form>
-    </div>
+          <input type="submit" name="submit" id="submit" value="submit" class="button">
+        </form>
+      </div>
       <div class="pass-manager">
         <ul>
-          <li><a href="#">Forgot Password</a></li>| 
+          <li><a href="#">Forgot Password</a></li>|
           <li><a href="#">Register</a></li>
         </ul>
       </div>
@@ -78,10 +77,10 @@
       <h2>Participate, Organize, or just have fun!</h2>
       <div class="social-icon">
         <div class="social-item">
-          <a href="#"><img src="images/icons/icons8-facebook-64.png" alt="facebook"></a>
+          <a href="#"><img src="images/icons/icons8-facebook-64.png" alt="Image-of-facebook"></a>
         </div>
         <div class="social-item">
-          <a href="#"><img src="images/icons/icons8-instagram-64.png" alt="Instagram"></a>
+          <a href="#"><img src="images/icons/icons8-instagram-64.png" alt="Image-of-Instagram"></a>
         </div>
       </div>
       <div class="foot-links">
@@ -97,4 +96,5 @@
   <script src="ham.js"></script>
   <script src="gallery.js"></script>
 </body>
+
 </html>
