@@ -12,7 +12,7 @@ html {
 
 a :focus {
   text-decoration: none;
-  color: orange;
+  color: green;
   opacity: 1;
 }
 
@@ -65,7 +65,7 @@ p {
 }
 
 h1 span {
-  color: orange;
+  color: green;
 }
 
 /* Header Section */
@@ -377,7 +377,7 @@ h1 span {
 /* Form Section */
 
 .contact-form :focus {
-  color: orange;
+  color: green;
 }
 label,
 input {
@@ -419,7 +419,7 @@ textarea {
 }
 
 input[type="submit"] :focus-visible {
-  background: orange;
+  background: green;
   color: orange;
 }
 
@@ -436,7 +436,7 @@ input[type="submit"] :focus-visible {
   position: relative;
 }
 .login-form :focus {
-  color: orange;
+  color: green;
 }
 
 #login-forms .login-form .pass-manager {
@@ -645,7 +645,9 @@ input[type="submit"] :focus-visible {
   }
   /* End of Media Query for Desktop */
 }
-
+#hero .breadcrumb{
+  color: rgba(241, 90, 34, 1); ;
+}
 .breadcrumb {
   display: flex;
   width: 100%;
@@ -653,7 +655,8 @@ input[type="submit"] :focus-visible {
   margin-top: 0;
   text-align: left;
   margin-bottom: 1em;
-  color: orange;
+  color:green;
+  background-color:none;
 }
 
 .breadcrumb a {
