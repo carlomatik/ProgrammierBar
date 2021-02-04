@@ -1,4 +1,5 @@
 {
+    "manifest_version": 2,
     "name": "ProgrammierBar",
     "short_name": "ProgrBar",
     "theme_color": "#f6b448",
