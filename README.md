@@ -175,3 +175,5 @@ Photos for Gallery
 Other CSS styling
 JS Scripting (if necessary)
 
+##
+All images used in this project were taken from https://www.pixabay.com. "Pixabay is a vibrant community of creatives, sharing copyright free images, videos and music. All contents are released under the Pixabay License, which makes them safe to use without asking for permission or giving credit to the artist - even for commercial purposes".
