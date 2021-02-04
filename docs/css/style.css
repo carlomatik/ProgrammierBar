@@ -62,7 +62,7 @@ header {
 }
 
 .logo {
-  background-image: url("../images/icons/logo_white.svg");
+  background-image: url("../logo_white.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 50px;
