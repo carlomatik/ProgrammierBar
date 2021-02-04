@@ -4,91 +4,104 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
+  <meta name="title" content="ProgrammierBar">
   <link rel="icon" href="logo_white.svg">
-  <meta name="theme-color" content="#000000">
+  <meta name="theme-color" content="#f6b448">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/maskimg.svg" color="#000000">
   <meta name="msapplication-TileColor" content="#f6b448">
-  
+  <meta name="description" content="We are the ProgrammierBar in Cottbus. A local bar which focuses on students of computer science. Join us for LAN Parties, host an event or buy our merch.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://carlomatik.github.io/ProgrammierBar/">
+  <meta property="og:title" content="ProgrammierBar">
+  <meta property="og:description" content="We are the ProgrammierBar in Cottbus. A local bar which focuses on students of computer science. Join us for LAN Parties, host an event or buy our merch.">
+  <meta property="og:image" content="https://carlomatik.github.io/ProgrammierBar/images/image10.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://carlomatik.github.io/ProgrammierBar/">
+  <meta property="twitter:title" content="ProgrammierBar">
+  <meta property="twitter:description" content="We are the ProgrammierBar in Cottbus. A local bar which focuses on students of computer science. Join us for LAN Parties, host an event or buy our merch.">
+  <meta property="twitter:image" content="https://carlomatik.github.io/ProgrammierBar/images/image10.jpg">
+
   <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BarOrPub",
-        "name": "ProgrammierBar",
-        "image": "https://carlomatik.github.io/ProgrammierBar/logo.svg",
-        "@id": "",
-        "url": "https://carlomatik.github.io/ProgrammierBar/index.html",
-        "telephone": "+49 355 5555555",
-        "priceRange": "2 - 20 EUR",
-        "menu": "https://carlomatik.github.io/ProgrammierBar/Beverages.html",
-        "servesCuisine": "Drinks",
-        "acceptsReservations": "true",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "University Street",
-          "addressLocality": "Cottbus",
-          "postalCode": "03046",
-          "addressCountry": "DE"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 51.767956,
-          "longitude": 14.320591
-        },
-        "openingHoursSpecification": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday"
-          ],
-          "opens": "16:00",
-          "closes": "04:00"
-        },
-        "sameAs": [
-          "facebook.com/programmierbar",
-          "instagram.com/programmierbar"
-        ] 
-      }
-      </script>
-  
+    {
+      "@context": "https://schema.org",
+      "@type": "BarOrPub",
+      "name": "ProgrammierBar",
+      "image": "https://carlomatik.github.io/ProgrammierBar/logo.svg",
+      "@id": "",
+      "url": "https://carlomatik.github.io/ProgrammierBar/index.html",
+      "telephone": "+49 355 5555555",
+      "priceRange": "2 - 20 EUR",
+      "menu": "https://carlomatik.github.io/ProgrammierBar/Beverages.html",
+      "servesCuisine": "Drinks",
+      "acceptsReservations": "true",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "University Street",
+        "addressLocality": "Cottbus",
+        "postalCode": "03046",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.767956,
+        "longitude": 14.320591
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "16:00",
+        "closes": "04:00"
+      },
+      "sameAs": [
+        "facebook.com/programmierbar",
+        "instagram.com/programmierbar"
+      ] 
+    }
+    </script>  
+
   <title>ProgrammierBar</title>
 </head>
 <body>
   <!-- Header Section -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <div class="logo"></div>
-          <h1><span>P</span>rogrammier<span>B</span>ar</h1>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger"><div class="bar"></div></div>
-          <ul>
-            <li><a id="active" href="#" >Home</a></li>
-            <li><a href="AboutUs.html" >About Us</a></li>
-            <li><a href="merch.html" >Merch</a></li>
-            <li><a href="gallery.html" >Gallery</a></li>
-            <li><a href="Beverages.html" >Beverages</a></li>
-            <li><a href="Rental.html" >Rental</a></li>
-            <li><a href="login.html" >Log in</a></li>
-          </ul>
-        </div>
-     
-      </div>
+<header>
+  <div class="logo"></div>
+  <h1><span>P</span>rogrammier<span>B</span>ar</h1>
+  <nav id="hamnav">
+    <label class=f-label for="hamburger">&#9776</label>
+    <input type="checkbox" id="hamburger">
+    <div id="hamitems">
+        <a id="active" href="#">Home</a>
+        <a href="AboutUs.html">About Us</a>
+        <a href="merch.html">Merch</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="Beverages.html">Beverages</a>
+        <a href="Rental.html">Rental</a>
+        <a href="login.html">Login</a>
+      </ul>
     </div>
-  </section>
+  </nav>
+</header>
+
   <!-- End of Header Section -->
   
 
-  <!-- Hero Section -->
+ <main>
+   <!-- Hero Section -->
   <section id="hero">
     
     <div class="hero container">
@@ -136,9 +149,10 @@
     </div>
   </section>
   <!-- End of Up-Coming Events Section -->
+  </main>
 
   <!-- Footer Section -->
-  <section id="footer">
+  <footer id="footer">
     <div class="footer container">
       <div class="brand">
         <h1><span>P</span>rogrammier<span>B</span>ar</h1>
@@ -161,9 +175,8 @@
         <li><a href="data-protection.html">Data Protection</a></li>
       </ul>
     </div>
-  </section>
+  </footer>
   <!-- End of Footer Section -->
   <script src="ham.js"></script>
-
 </body>
 </html>
