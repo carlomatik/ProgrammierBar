@@ -5,37 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <title>ProgrammierBar</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="logo_white.svg">
+  <meta name="theme-color" content="#f6b448">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/maskimg.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#f6b448">
+  <title>Login | ProgrammierBar</title>
 </head>
 
 <body>
   <!-- Header Section -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <div class="logo"></div>
-          <h1><span>P</span>rogrammier<span>B</span>ar</h1>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
-          </div>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="AboutUs.html">About Us</a></li>
-            <li><a href="merch.html">Merch</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="Beverages.html">Beverages</a></li>
-            <li><a href="Rental.html">Rental</a></li>
-            <li><a href="login.html" id="active">Log in</a></li>
-          </ul>
-        </div>
-      </div>
+ <header>
+  <div class="logo"></div>
+  <h1><span>P</span>rogrammier<span>B</span>ar</h1>
+  <nav id="hamnav">
+    <label class=f-label for="hamburger">&#9776</label>
+    <input type="checkbox" id="hamburger">
+    <div id="hamitems">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="merch.html">Merch</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="beverages.html">Beverages</a>
+        <a href="rental.html">Rental</a>
+        <a id="active" href="#">Login</a>
+      </ul>
     </div>
-  </section>
+  </nav>
+</header>
   <!-- End of Header Section -->
-
+<main>
   <section id="login-forms">
 
     <div class="login-form container">
@@ -67,9 +70,9 @@
       </div>
     </div>
   </section>
-
+</main>
   <!-- Footer Section -->
-  <section id="footer">
+  <footer id="footer">
     <div class="footer container">
       <div class="brand">
         <h1><span>P</span>rogrammier<span>B</span>ar</h1>
@@ -91,9 +94,8 @@
       </div>
       <p>Copyright &copy; 2020 ProgrammierBar. All rights reserved.</p>
     </div>
-  </section>
+  </footer>
   <!-- End of Footer Section -->
-  <script src="ham.js"></script>
 
 </body>
 
