@@ -92,6 +92,7 @@ header h1 {
   padding-left: 350px;
   padding-top: 10px;
   position: absolute;
+  z-index: 100;
 }
 
 nav #hamburger {
